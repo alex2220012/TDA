@@ -1,6 +1,6 @@
 //
 //  Sequences.h
-//  
+//
 //
 //  Created by Cesar Angeles on 07/09/2020.
 //
@@ -15,6 +15,8 @@
 #else
     #define EXTERN extern
 #endif
+#define FILAS 25
+#define COL 4
 
 
 /* Sequences.h -- Function prototypes */

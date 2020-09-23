@@ -1,6 +1,6 @@
 //
 //  files.h
-//  
+//
 //
 //  Created by Cesar Angeles on 07/09/2020.
 //
@@ -9,6 +9,7 @@
 #define files_h
 
 #include <stdio.h>
+#include <stdlib.h>
 
 #ifdef files_IMPORT
     #define EXTERN
@@ -56,7 +57,3 @@ EXTERN void file_num_write(FILE * file, size_t columns, long double buff[] [colu
 
 
 #endif /* files_h */
-
-
-/*ietartivos en milisegundos
-recursivos en segundos*/
